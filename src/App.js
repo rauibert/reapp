@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './Card';
 
 function App() {
   return (
@@ -8,8 +9,13 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>        
-      </header>
+        </p>
+
+        {/** Usar mi componente Card */}
+        <Card /> 
+
+      </header>  
+      
     </div>
   );
 }
